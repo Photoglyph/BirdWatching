@@ -14,7 +14,7 @@ header div {
 header {
 display: flex;
 flex-direction: column;
-align-item: center;
+align-items: center;
 }
 h1{
     /* For font-sizes, use ems. */
