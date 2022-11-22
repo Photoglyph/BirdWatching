@@ -18,5 +18,17 @@ align-items: center;
 }
 h1{
     /* For font-sizes, use ems. */
-}font-size: 3em;
+font-size: 3em;
 font-weight: 700;
+}
+nav ul {
+display: flex;
+gap: 1rem;
+}
+
+nav a {
+text-decoration: none;
+
+}
+
+
