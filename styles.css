@@ -18,4 +18,5 @@ align-items: center;
 }
 h1{
     /* For font-sizes, use ems. */
-}
+}font-size: 3em;
+font-weight: 700;
