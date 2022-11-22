@@ -5,5 +5,5 @@ header, main, footer {
 
 
 header div {
-    background-color: red
+   display: flex;
 }
