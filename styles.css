@@ -1,7 +1,9 @@
 /* Tag selector - Select all the h1s and apply the folloqwing rules */
 header, main, footer {
  background-color: greenyellow;
+}
 
 
-
+header div {
+    background-color: red
 }
