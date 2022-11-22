@@ -23,12 +23,20 @@ font-weight: 700;
 }
 nav ul {
 display: flex;
-gap: 1rem;
+
 }
 
 nav a {
 text-decoration: none;
+color: black;
+text-transform: uppercase;
 
+
+
+li{
+list-style: none;
+
+}
 }
 
 
