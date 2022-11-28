@@ -1,4 +1,4 @@
-/* Tag selector - Select all the h1s and apply the folloqwing rules */
+/* Tag selector - Select all the h1s and apply the following rules */
 header, main, footer {
  background-color: greenyellow;
 }
@@ -32,17 +32,12 @@ color: black;
 text-transform: uppercase;
 font-size: 1.5em;
 font-weight: bold;
-
-
-
-nav a: hover; {
-
-
 }
+
 li {
 list-style: none;
 
 }
-}
+
 
 
