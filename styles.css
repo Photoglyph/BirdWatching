@@ -3,10 +3,17 @@ header, main, footer {
  background-color: greenyellow;
 }
 
+img {
+    /* Prevent images from spilling outside of the parent. */
+    max-width: 100%;
+    height: auto;
+}
+
 /* GENERALLY CHILD SELECTOR: Select any/all descendants that are */
 header div {
    display: flex;
-   align-items: centers;
+   align-items: center;
+
    /* For spacing use, use rems */
    gap: 1rem;
 }
@@ -15,15 +22,21 @@ header {
 display: flex;
 flex-direction: column;
 align-items: center;
+
 }
-h1{
+
+li {
+    list-style: none;
+}
+
+h1 {
     /* For font-sizes, use ems. */
-font-size: 3em;
+font-size: 3.06rem;
 font-weight: 700;
 }
+
 nav ul {
 display: flex;
-
 }
 
 nav a {
@@ -32,10 +45,28 @@ color: black;
 text-transform: uppercase;
 font-size: 1.5em;
 font-weight: bold;
+background-color: goldenrod;
+padding: 1rem;
+}
 
+nav a:hover {
+   background-color: darkgoldenrod;
+ 
+}
+main {
+    margin: 1rem 0;
+    padding: 1rem;
+    display: flex;
+    column-gap: 1.5 rem;
+}
 
-li {
-list-style: none;
+main section {
+    background-color: aquamarine;
+    padding: 0 1 rem;
+
+}
+main section: :first-child {
+    min-width: 60%;
 
 }
 
