@@ -65,11 +65,28 @@ main section {
     padding: 0 1 rem;
 
 }
-main section: :first-child {
+main section: :first-child img
     min-width: 60%;
 
-}
+    main section: :first-child img
+    transition: opacity 0.5s ease-in
+
+    main section: first-child img: hover {{
+        opacity: o;
+         
+    main section:first-child p:last-child
+    
 }
 
 
+}
+
+.flex {
+    display: flex;
+
+    .flex--center
+    align-items:center;
+    justify-items:center;
+
+}
 
