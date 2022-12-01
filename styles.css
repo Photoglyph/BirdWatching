@@ -1,5 +1,6 @@
 header, main, footer {
-    background-color: greenyellow;
+    background-color: aquamarine
+  ;
   }
   
   img {
@@ -10,10 +11,9 @@ header, main, footer {
   
   /* GENERAL CHILD SELECTOR: Select any/all descendants that are 'div' inside of 'header */
   header div {
-    display: flex;
+    
     align-items: center;
-  
-    /* For spacing, use rems. */
+  /* For spacing, use rems. */
     gap: 1rem;
   }
   
@@ -118,6 +118,17 @@ header, main, footer {
     grid-area: img-4;
   }
   
+  label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
   footer {
     padding: 1rem 0.5rem;
   }
@@ -127,11 +138,13 @@ header, main, footer {
     display: flex;
   }
   
-  .flex--center {
-    align-items: center;
-    justify-items: center;
+
+  flex--col;  {
+  flex-direction: column;
+  .flex--content-center {
+  {  justify-items: center;
   }
   
-  .relative {
-    position: relative;
-  }
+
+ 
+    }
